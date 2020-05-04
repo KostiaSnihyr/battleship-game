@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>battleship</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <input type="text" id="guess-input" placeholder="A0" />
+        <input type="button" id="fire-button" value="FIRE" />
+      </form>
+
+      <div class="message-area">INFO!</div>
+      <div class="grid">
+        <div class="grid-item grid-empty"></div>
+
+        <div class="grid-item grid-item-0 grid-number-layout">0</div>
+        <div class="grid-item grid-item-1 grid-number-layout">1</div>
+        <div class="grid-item grid-item-2 grid-number-layout">2</div>
+        <div class="grid-item grid-item-3 grid-number-layout">3</div>
+        <div class="grid-item grid-item-4 grid-number-layout">4</div>
+        <div class="grid-item grid-item-5 grid-number-layout">5</div>
+        <div class="grid-item grid-item-6 grid-number-layout">6</div>
+
+        <div class="grid-item grid-item-a grid-letter">A</div>
+
+        <div class="grid-item grid-item-00" id="00">00</div>
+        <div class="grid-item grid-item-01" id="01">01</div>
+        <div class="grid-item grid-item-02" id="02">02</div>
+        <div class="grid-item grid-item-03" id="03">03</div>
+        <div class="grid-item grid-item-04" id="04">04</div>
+        <div class="grid-item grid-item-05" id="05">05</div>
+        <div class="grid-item grid-item-06" id="06">06</div>
+
+        <div class="grid-item grid-item-b grid-letter">B</div>
+
+        <div class="grid-item grid-item-10" id="10">10</div>
+        <div class="grid-item grid-item-11" id="11">11</div>
+        <div class="grid-item grid-item-12" id="12">12</div>
+        <div class="grid-item grid-item-13" id="13">13</div>
+        <div class="grid-item grid-item-14" id="14">14</div>
+        <div class="grid-item grid-item-15" id="15">15</div>
+        <div class="grid-item grid-item-16" id="16">16</div>
+
+        <div class="grid-item grid-item-c grid-letter">C</div>
+
+        <div class="grid-item grid-item-20" id="20">20</div>
+        <div class="grid-item grid-item-21" id="21">21</div>
+        <div class="grid-item grid-item-22" id="22">22</div>
+        <div class="grid-item grid-item-23" id="23">23</div>
+        <div class="grid-item grid-item-24" id="24">24</div>
+        <div class="grid-item grid-item-25" id="25">25</div>
+        <div class="grid-item grid-item-26" id="26">26</div>
+
+        <div class="grid-item grid-item-d grid-letter">D</div>
+
+        <div class="grid-item grid-item-30" id="30">30</div>
+        <div class="grid-item grid-item-31" id="31">31</div>
+        <div class="grid-item grid-item-32" id="32">32</div>
+        <div class="grid-item grid-item-33" id="33">33</div>
+        <div class="grid-item grid-item-34" id="34">34</div>
+        <div class="grid-item grid-item-35" id="35">35</div>
+        <div class="grid-item grid-item-36" id="36">36</div>
+
+        <div class="grid-item grid-item-e grid-letter">E</div>
+
+        <div class="grid-item grid-item-40" id="40">40</div>
+        <div class="grid-item grid-item-41" id="41">41</div>
+        <div class="grid-item grid-item-42" id="42">42</div>
+        <div class="grid-item grid-item-43" id="43">43</div>
+        <div class="grid-item grid-item-44" id="44">44</div>
+        <div class="grid-item grid-item-45" id="45">45</div>
+        <div class="grid-item grid-item-46" id="46">46</div>
+
+        <div class="grid-item grid-item-f grid-letter">F</div>
+
+        <div class="grid-item grid-item-50" id="50">50</div>
+        <div class="grid-item grid-item-51" id="51">51</div>
+        <div class="grid-item grid-item-52" id="52">52</div>
+        <div class="grid-item grid-item-53" id="53">53</div>
+        <div class="grid-item grid-item-54" id="54">54</div>
+        <div class="grid-item grid-item-55" id="55">55</div>
+        <div class="grid-item grid-item-56" id="56">56</div>
+
+        <div class="grid-item grid-item-g grid-letter">G</div>
+
+        <div class="grid-item grid-item-60" id="60">60</div>
+        <div class="grid-item grid-item-61" id="61">61</div>
+        <div class="grid-item grid-item-62" id="62">62</div>
+        <div class="grid-item grid-item-63" id="63">63</div>
+        <div class="grid-item grid-item-64" id="64">64</div>
+        <div class="grid-item grid-item-65" id="65">65</div>
+        <div class="grid-item grid-item-66" id="66">66</div>
+      </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="scripts/global.js"></script>
+    <script src="scripts/view.js"></script>
+    <script src="scripts/model.js"></script>
+    <script src="scripts/controller.js"></script>
+  </body>
+</html>
